@@ -55,6 +55,16 @@ Clone the repository:
 ```bash
 git clone https://github.com/y-Diniz/42-piscine.git
 ```
+### Compilation
+
+All C projects must be compiled using:
+```bash
+cc -Wall -Wextra -Werror <files>.c -o <executable>
+```
+Example:
+```bash
+cc -Wall -Wextra -Werror main.c ft_putchar.c -o program
+```
 ## Notes
 All projects were developed following 42's strict coding standards
 No external libraries were used (except when allowed)
